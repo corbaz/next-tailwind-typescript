@@ -11,7 +11,8 @@ const Index = () => {
       meta={
         <Meta
           title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+          description="Next js Boilerplate es el template de codigo perfecto para su proyecto.
+           Construye su Aplicacion en React con el Framework Next.js"
         />
       }
     >
@@ -21,8 +22,8 @@ const Index = () => {
           alt="Nextjs starter banner"
         />
       </a>
-      <h1 className="font-bold text-2xl">
-        Boilerplate code for your Nextjs project with Tailwind CSS
+      <h1 className="font-bold text-2xl text-center">
+        Template de codigo en Nextjs con Tailwind CSS y Typescript
       </h1>
       <p>
         <span role="img" aria-label="rocket">
