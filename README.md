@@ -154,3 +154,41 @@ See [LICENSE](LICENSE) for more information.
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 [![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
+
+
+```bash
+C:\www\next-tailwind-typescript>ncu
+Checking C:\www\next-tailwind-typescript\package.json
+[====================] 31/31 100%
+
+ @next/bundle-analyzer             ^12.0.0  →  ^12.0.1
+ @typescript-eslint/eslint-plugin  ^4.32.0  →   ^5.2.0
+ @typescript-eslint/parser         ^4.32.0  →   ^5.2.0
+ autoprefixer                      ^10.3.7  →  ^10.4.0
+ eslint                            ^7.32.0  →   ^8.1.0
+ eslint-config-next                ^12.0.0  →  ^12.0.1
+ lint-staged                       ^11.2.5  →  ^11.2.6
+ tailwindcss                       ^2.2.17  →  ^2.2.19
+ next                              ^12.0.0  →  ^12.0.1
+
+Run ncu -u to upgrade package.json
+
+C:\www\next-tailwind-typescript>ncu -u
+Upgrading C:\www\next-tailwind-typescript\package.json
+[====================] 31/31 100%
+
+ @next/bundle-analyzer             ^12.0.0  →  ^12.0.1
+ @typescript-eslint/eslint-plugin  ^4.32.0  →   ^5.2.0
+ @typescript-eslint/parser         ^4.32.0  →   ^5.2.0
+ autoprefixer                      ^10.3.7  →  ^10.4.0
+ eslint                            ^7.32.0  →   ^8.1.0
+ eslint-config-next                ^12.0.0  →  ^12.0.1
+ lint-staged                       ^11.2.5  →  ^11.2.6
+ tailwindcss                       ^2.2.17  →  ^2.2.19
+ next                              ^12.0.0  →  ^12.0.1
+
+Run npm install to install new versions.
+
+
+C:\www\next-tailwind-typescript>yarn install
+```
